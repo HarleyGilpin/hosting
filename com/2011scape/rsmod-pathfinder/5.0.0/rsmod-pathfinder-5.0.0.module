@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.2011scape",
+    "module": "rsmod-pathfinder",
+    "version": "5.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rsmod-pathfinder-5.0.0.jar",
+          "url": "rsmod-pathfinder-5.0.0.jar",
+          "size": 69197,
+          "sha512": "6fcb2e632b8aaa06d8d768955db16afb596760d9466cde7e43ad58b3da1a9f5ed21ecf2f85bf1d3caf5550cc3d27896835d93e675dd9647bbf2f92529098fdbc",
+          "sha256": "ba6b1e76292b95b718cb4c4da92c3d974951133e815ca204d0f6d50ef65560da",
+          "sha1": "b4bad8850024f11b04603b9605c7440fc0118795",
+          "md5": "1e2d4ef70f8df62f6660d5cc0e5ead14"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rsmod-pathfinder-5.0.0.jar",
+          "url": "rsmod-pathfinder-5.0.0.jar",
+          "size": 69197,
+          "sha512": "6fcb2e632b8aaa06d8d768955db16afb596760d9466cde7e43ad58b3da1a9f5ed21ecf2f85bf1d3caf5550cc3d27896835d93e675dd9647bbf2f92529098fdbc",
+          "sha256": "ba6b1e76292b95b718cb4c4da92c3d974951133e815ca204d0f6d50ef65560da",
+          "sha1": "b4bad8850024f11b04603b9605c7440fc0118795",
+          "md5": "1e2d4ef70f8df62f6660d5cc0e5ead14"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rsmod-pathfinder-5.0.0-javadoc.jar",
+          "url": "rsmod-pathfinder-5.0.0-javadoc.jar",
+          "size": 261,
+          "sha512": "79c8dbe1162c896a675ecd6fc82d3c100a827fb562f83c8867b621ca9c5674ee979fe2118d2090e939246e4d8744c3f363ef7c6fe4e72f7388c60ee8eb7a94bb",
+          "sha256": "3ae61437e45aa8c80c0ca831d09da282a35c1390035853b36bddf36dd6906be1",
+          "sha1": "ce076e70be7e09158910ddcf5b61bfde77f21d21",
+          "md5": "9742b0bb671b051a3af5c7e9b2ae44f3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rsmod-pathfinder-5.0.0-sources.jar",
+          "url": "rsmod-pathfinder-5.0.0-sources.jar",
+          "size": 22574,
+          "sha512": "a5527fa733f5bcbd3c80d814d85a6b82fc0dbf6a39e76993382b6fff623200823415631c9d8171fa49a97ecc5a4679267a0168553fd2aeacd7d3402260d3c5d0",
+          "sha256": "4c00a7d02b813e0beced8910a8bf3d440f8f8a123c28d8f42e8b79fc2e435650",
+          "sha1": "bf26a00f811b7ff5d36f7751a66865843d7c71ab",
+          "md5": "70f183009ab5c543d9531f81bec422b4"
+        },
+        {
+          "name": "rsmod-pathfinder-5.0.0-sources.jar",
+          "url": "rsmod-pathfinder-5.0.0-sources.jar",
+          "size": 22574,
+          "sha512": "a5527fa733f5bcbd3c80d814d85a6b82fc0dbf6a39e76993382b6fff623200823415631c9d8171fa49a97ecc5a4679267a0168553fd2aeacd7d3402260d3c5d0",
+          "sha256": "4c00a7d02b813e0beced8910a8bf3d440f8f8a123c28d8f42e8b79fc2e435650",
+          "sha1": "bf26a00f811b7ff5d36f7751a66865843d7c71ab",
+          "md5": "70f183009ab5c543d9531f81bec422b4"
+        }
+      ]
+    }
+  ]
+}
